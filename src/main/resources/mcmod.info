@@ -1,0 +1,16 @@
+[
+{
+  "modid": "first",
+  "name": "TestMod",
+  "description": "blablabla",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Climeron"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

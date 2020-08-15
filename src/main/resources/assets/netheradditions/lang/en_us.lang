@@ -1,0 +1,34 @@
+itemGroup.tab_nether_plus=Nether+
+
+item.netherite_scrap.name=Netherite scrap
+item.netherite_ingot.name=Netherite ingot
+
+item.netherite_shovel.name=Netherite shovel
+item.netherite_pickaxe.name=Netherite pickaxe
+item.netherite_axe.name=Netherite axe
+item.netherite_sword.name=Netherite sword
+item.netherite_hoe.name=Netherite hoe
+
+item.netherite_helmet.name=Netherite helmet
+item.netherite_chestplate.name=Netherite chestplate
+item.netherite_leggings.name=Netherite leggings
+item.netherite_boots.name=Netherite boots
+
+tile.ancient_debris.name=Ancient Debris
+tile.netherite_block.name=Netherite Block
+tile.nylium_warped.name=Warped Nylium
+tile.nylium_crimson.name=Crimson Nylium
+tile.stem_warped.name=Warped Stem
+tile.stem_crimson.name=Crimson Stem
+tile.planks_warped.name=Warped Planks
+tile.planks_crimson.name=Crimson Planks
+tile.warped_wart_block.name=Warped Wart Block
+tile.fungus_warped.name=Warped Fungus
+tile.fungus_crimson.name=Crimson Fungus
+tile.roots_warped.name=Warped Roots
+tile.roots_crimson.name=Crimson Roots
+tile.shroomlight.name=Shroomlight
+tile.weeping_vines_bottom_part.name=Weeping Vines
+tile.weeping_vines_plant.name=Weeping Vines
+tile.nether_sprouts.name=Nether Sprouts
+tile.basalt.name=Basalt

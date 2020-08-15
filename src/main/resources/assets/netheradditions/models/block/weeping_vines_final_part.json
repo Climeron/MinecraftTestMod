@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "netheradditions:block/weeping_vines_final_part"
+    }
+}

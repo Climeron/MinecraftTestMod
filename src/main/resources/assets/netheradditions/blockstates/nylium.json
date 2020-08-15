@@ -1,0 +1,7 @@
+{
+	"variants":
+	{
+		"variant=warped": { "model": "netheradditions:warped_nylium" },
+		"variant=crimson": { "model": "netheradditions:crimson_nylium" }
+	}
+}

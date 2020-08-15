@@ -1,0 +1,7 @@
+{
+	"variants":
+	{
+		"variant=warped": { "model": "netheradditions:warped_roots" },
+		"variant=crimson": { "model": "netheradditions:crimson_roots" }
+	}
+}

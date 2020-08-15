@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "side": "netheradditions:block/basalt_side",
+        "end": "netheradditions:block/basalt_top"
+    }
+}

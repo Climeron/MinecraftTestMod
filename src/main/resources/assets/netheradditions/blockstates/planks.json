@@ -1,0 +1,7 @@
+{
+	"variants":
+	{
+		"variant=warped": { "model": "netheradditions:warped_planks" },
+		"variant=crimson": { "model": "netheradditions:crimson_planks" }
+	}
+}

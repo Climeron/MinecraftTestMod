@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "netheradditions:block/ancient_debris_top",
+        "side": "netheradditions:block/ancient_debris_side"
+    }
+}

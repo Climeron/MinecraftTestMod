@@ -1,0 +1,19 @@
+{
+    "multipart":
+	[
+        {
+		"when": { "variant": "final_part" },
+            "apply":
+			[
+                { "model": "netheradditions:twisting_vines_final_part" }
+            ]
+        },
+		{
+		"when": { "variant": "plant" },
+            "apply":
+			[
+                { "model": "netheradditions:twisting_vines_plant" }
+            ]
+        }
+    ]
+}

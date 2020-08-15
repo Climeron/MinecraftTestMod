@@ -1,0 +1,9 @@
+{
+	"variants":
+	{
+		"stage=0,variant=warped": { "model": "netheradditions:warped_fungus" },
+		"stage=1,variant=warped": { "model": "netheradditions:warped_fungus" },
+		"stage=0,variant=crimson": { "model": "netheradditions:crimson_fungus" },
+		"stage=1,variant=crimson": { "model": "netheradditions:crimson_fungus" }
+	}
+}

@@ -1,0 +1,32 @@
+item.netherite_scrap.name=Незеритовый лом
+item.netherite_ingot.name=Незеритовый слиток
+
+item.netherite_shovel.name=Незеритовая лопата
+item.netherite_pickaxe.name=Незеритовая кирка
+item.netherite_axe.name=Незеритовый топор
+item.netherite_sword.name=Незеритовый меч
+item.netherite_hoe.name=Незеритовая мотыга
+
+item.netherite_helmet.name=Незеритовый шлем
+item.netherite_chestplate.name=Незеритовый нагрудник
+item.netherite_leggings.name=Незеритовые поножи
+item.netherite_boots.name=Незеритовые ботинки
+
+tile.ancient_debris.name=Древние обломки
+tile.netherite_block.name=Незеритовый блок
+tile.nylium_warped.name=Искажённый нилиум
+tile.nylium_crimson.name=Багровый нилиум
+tile.stem_warped.name=Искажённый ствол
+tile.stem_crimson.name=Багровый ствол
+tile.planks_warped.name=Искажённые доски
+tile.planks_crimson.name=Багровые доски
+tile.warped_wart_block.name=Искажённый блок нароста
+tile.fungus_warped.name=Искажённый гриб
+tile.fungus_crimson.name=Багровый гриб
+tile.roots_warped.name=Искажённые корни
+tile.roots_crimson.name=Багровые корни
+tile.shroomlight.name=Грибосвет
+tile.weeping_vines_bottom_part.name=Плакучая лоза
+tile.weeping_vines_plant.name=Плакучая лоза
+tile.nether_sprouts.name=Адские ростки
+tile.basalt.name=Базальт
