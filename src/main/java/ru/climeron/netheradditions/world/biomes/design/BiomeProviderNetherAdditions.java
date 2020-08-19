@@ -1,5 +1,7 @@
 package ru.climeron.netheradditions.world.biomes.design;
 
+import java.lang.reflect.Field;
+
 import javax.annotation.Nullable;
 
 import net.minecraft.crash.CrashReport;
@@ -23,23 +25,13 @@ import ru.climeron.netheradditions.world.generation.layer.GenLayerNetherSubBiome
 
 public class BiomeProviderNetherAdditions extends BiomeProvider
 {
-    private GenLayer genBiomes;
-    private GenLayer biomeIndexLayer;
-    private BiomeCache biomeCache;
-    private BiomeProvider provider;
-    
-    public BiomeProviderNetherAdditions(World world)
+	
+	public BiomeProviderNetherAdditions(World world)
     {
         super();
         GenLayer[] genLayers = this.createGenLayers(world.getWorldType(), world.getSeed());
-        genBiomes = genLayers[0];
-        biomeIndexLayer = genLayers[1];
-        biomeCache = new BiomeCache(this);
-    }
-    
-    public void BiomeCache(BiomeProvider provider)
-    {
-        this.provider = provider;
+        this.genBiomes = genLayers[0];
+        this.biomeIndexLayer = genLayers[1];
     }
 
     @Override
@@ -73,40 +65,6 @@ public class BiomeProviderNetherAdditions extends BiomeProvider
             crashReportCategory.addCrashSection("w", width);
             crashReportCategory.addCrashSection("h", height);
             throw new ReportedException(crashReport);
-        }
-    }
-    
-    @Override
-    public Biome[] getBiomes(@Nullable Biome[] oldBiomeList, int x, int z, int width, int depth)
-    {
-        return this.getBiomes(oldBiomeList, x, z, width, depth, true);
-    }
-    
-    public Biome[] getBiomes(@Nullable Biome[] listToReuse, int x, int z, int width, int length, boolean cacheFlag)
-    {
-        IntCache.resetIntCache();
-
-        if (listToReuse == null || listToReuse.length < width * length)
-        {
-            listToReuse = new Biome[width * length];
-        }
-
-        if (cacheFlag && width == 16 && length == 16 && (x & 15) == 0 && (z & 15) == 0)
-        {
-            Biome[] abiome = this.biomeCache.getCachedBiomes(x, z);
-            System.arraycopy(abiome, 0, listToReuse, 0, width * length);
-            return listToReuse;
-        }
-        else
-        {
-            int[] aint = this.biomeIndexLayer.getInts(x, z, width, length);
-
-            for (int i = 0; i < width * length; ++i)
-            {
-                listToReuse[i] = Biome.getBiome(aint[i], Biomes.HELL);
-            }
-
-            return listToReuse;
         }
     }
 
